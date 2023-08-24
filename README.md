@@ -27,7 +27,7 @@ cd to-do-list
 docker-compose build
 
 # subir container
-docker-compose up
+docker-compose up -d
 ```
 
 Caso queira acessar o terminal dos containers você pode usar um dos comandos :
