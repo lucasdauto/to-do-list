@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  front-end:
+    build:
+      context: ./front-end # Caminho para a pasta do projeto front-end
+      dockerfile: Dockerfile # Nome do Dockerfile personalizado
+    container_name: to-do-list-front-end
+    ports:
+      - "80:5173" # Expondo na porta 80 do host, mapeando para a porta 8080 do container
