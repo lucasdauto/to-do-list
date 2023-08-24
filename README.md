@@ -30,6 +30,16 @@ docker-compose build
 docker-compose up
 ```
 
+Caso queira acessar o terminal dos containers você pode usar um dos comandos :
+
+```bash
+# front-end
+docker exec -it to-do-list-front-end sh
+
+# back-end
+docker exec -it to-do-list-back-end sh
+```
+
 Isso irá criar e iniciar os containers para o front-end (Vue.js) e o back-end (API Symfony).
 
 4. Acesse a aplicação em seu navegador:
