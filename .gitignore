@@ -1,0 +1,51 @@
+### PhpStorm ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff
+back-end/.idea/**/workspace.xml
+back-end/.idea/**/tasks.xml
+back-end/.idea/**/usage.statistics.xml
+back-end/.idea/**/dictionaries
+back-end/.idea/**/shelf
+
+# Generated files
+back-end/.idea/**/contentModel.xml
+
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+# .idea/artifacts
+# .idea/compiler.xml
+# .idea/jarRepositories.xml
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/modules
+# *.iml
+# *.ipr
+
+### Symfony ###
+# Cache and logs (Symfony2)
+back-end/app/cache/*
+back-end/app/logs/*
+!back-end/app/cache/.gitkeep
+!back-end/app/logs/.gitkeep
+
+### VisualStudioCode ###
+.vscode/*
+front-end/.vscode/*
+!front-end/.vscode/settings.json
+!front-end/.vscode/tasks.json
+!front-end/.vscode/launch.json
+!front-end/.vscode/extensions.json
+!front-end/.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+front-end/node_modules/
+front-end/dist/
+front-end/npm-debug.log
+front-end/yarn-error.log
+
